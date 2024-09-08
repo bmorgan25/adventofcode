@@ -5,9 +5,9 @@ cd $1;
 touch input.txt;
 touch instructions.txt;
 
-printf "Part 1\n\nAnswer: \n\n" >> instructions.txt;
+printf "Part 1\n\n\nAnswer: \n\n" >> instructions.txt;
 printf "%s\n" "--------------------------------------------" >> instructions.txt;
-printf "Part 2\n\nAnswer: \n" >> instructions.txt;
+printf "Part 2\n\n\nAnswer: \n" >> instructions.txt;
 
 touch solution.ts;
 touch test-input.txt;
